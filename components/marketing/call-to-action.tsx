@@ -12,10 +12,10 @@ export function CallToAction() {
             Ready when you are
           </p>
           <h2 className="font-heading text-3xl font-semibold tracking-tight md:text-5xl">
-            Ship a more disciplined forecast process without shipping another pile of dashboards.
+            Launch more ad content without adding another chaotic review loop.
           </h2>
           <p className="max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-            Launch a pilot in two weeks, connect your CRM, and give managers one place to run pipeline, coaching, and commit calls.
+            Launch a pilot in two weeks, centralize briefs and approvals, and give your team one place to turn ideas into production-ready ads.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button

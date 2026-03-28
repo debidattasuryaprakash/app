@@ -6,9 +6,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SectionHeading } from "@/components/section-heading";
 
 const boardRows = [
-  ["Enterprise", "92%", "$480k", "3 deals at risk"],
-  ["Mid-market", "105%", "$310k", "Healthy coverage"],
-  ["Velocity", "88%", "$140k", "Needs multi-threading"],
+  ["Meta retargeting", "18 ads", "Ready Friday", "2 awaiting review"],
+  ["TikTok launch", "24 ads", "In production", "UGC cuts due today"],
+  ["Search refresh", "12 ads", "Approved", "Copy localized"],
 ];
 
 export function DashboardShowcase() {
@@ -19,15 +19,15 @@ export function DashboardShowcase() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.22em] text-slate-400">
-                Segment scoreboard
+                Campaign scoreboard
               </p>
               <h3 className="mt-2 font-heading text-2xl font-semibold">
-                Pipeline health at a glance
+                Creative progress at a glance
               </h3>
             </div>
             <span className="flex items-center gap-2 rounded-full bg-emerald-400/10 px-3 py-1 text-sm text-emerald-200">
               <TrendingUp className="size-4" />
-              +12% QoQ
+              +27% output
             </span>
           </div>
 
@@ -50,15 +50,15 @@ export function DashboardShowcase() {
       <div className="space-y-8">
         <SectionHeading
           eyebrow="Preview"
-          title="A dashboard that helps the team decide, not just observe."
-          description="SignalStack frames the next conversation: where leadership should lean in, which deals need executive help, and which motions are actually compounding."
+          title="A workspace that helps the team ship, not just brainstorm."
+          description="AdForge keeps the next decision obvious: what to create next, what needs feedback, and what is actually ready to go live."
         />
         <div className="grid gap-4 md:grid-cols-2">
           {[
-            "Executive summary cards with clear deltas",
-            "Forecast drill-downs by segment and owner",
-            "Manager coaching queues tied to real deal risk",
-            "Board-ready exports without spreadsheet cleanup",
+            "Campaign views with clear production status",
+            "Creative drill-downs by channel and audience",
+            "Approval queues tied to real launch blockers",
+            "Performance context without spreadsheet cleanup",
           ].map((item) => (
             <div
               key={item}

@@ -1,55 +1,55 @@
 import { z } from "zod";
 
 export const heroStats = [
-  { value: "11 hrs", label: "saved per manager each forecast cycle" },
-  { value: "2.4x", label: "faster deal-risk identification across segments" },
-  { value: "98%", label: "board-ready forecast confidence for finance leaders" },
+  { value: "8 hrs", label: "saved each week on briefs, rewrites, and approvals" },
+  { value: "3.1x", label: "more ad variants launched per campaign cycle" },
+  { value: "42%", label: "faster turnaround from brief to live creative" },
 ] as const;
 
 export const dashboardSnapshot = [
-  { label: "Commit forecast", value: "$1.28M", delta: "+6.4%", progress: "72%" },
-  { label: "Coverage ratio", value: "3.7x", delta: "Above target", progress: "81%" },
-  { label: "Deal hygiene", value: "89%", delta: "+14 pts", progress: "89%" },
+  { label: "Creative queue", value: "128 ads", delta: "+18 this week", progress: "72%" },
+  { label: "Approval velocity", value: "2.6 days", delta: "31% faster", progress: "81%" },
+  { label: "Launch readiness", value: "93%", delta: "+11 pts", progress: "89%" },
 ] as const;
 
 export const pricingPlans = [
   {
     name: "Starter",
-    description: "For founder-led or first-line teams building a repeatable pipeline rhythm.",
+    description: "For lean teams that need one place to brief, draft, and ship high-performing ads.",
     price: "$79",
     billing: "per seat / month",
-    cta: "Start pilot",
+    cta: "Start creating",
     highlighted: false,
     features: [
-      "Pipeline review templates and scorecards",
-      "AI call summaries with task extraction",
-      "Forecast snapshots for one business unit",
+      "Campaign briefs and AI-assisted ad generation",
+      "Creative library for copy, hooks, and visuals",
+      "One shared workspace for drafts and approvals",
     ],
   },
   {
     name: "Growth",
-    description: "For scaling orgs that need cleaner forecasting and sharper manager coaching.",
+    description: "For in-house and agency teams scaling paid creative across channels and audiences.",
     price: "$149",
     billing: "per seat / month",
     cta: "Book growth demo",
     highlighted: true,
     features: [
-      "Segment-level forecasting and commit tracking",
-      "Role-based workspaces for reps, managers, and ops",
-      "Board-ready exports plus executive dashboards",
+      "Multi-channel creative planning and launch boards",
+      "Role-based reviews for marketers, designers, and clients",
+      "Performance insights tied back to each creative concept",
     ],
   },
   {
     name: "Scale",
-    description: "For multi-team organizations standardizing forecasting across regions and leaders.",
+    description: "For brands and agencies standardizing ad production across teams, markets, and clients.",
     price: "Custom",
     billing: "annual contracts",
     cta: "Talk to sales",
     highlighted: false,
     features: [
-      "Custom objects, score models, and data lineage",
-      "Advanced permissions and workspace governance",
-      "White-glove rollout with dedicated rev ops support",
+      "Custom workflows, templates, and brand guardrails",
+      "Advanced permissions, approvals, and governance",
+      "White-glove onboarding for enterprise creative ops",
     ],
   },
 ] as const;

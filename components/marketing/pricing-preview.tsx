@@ -10,8 +10,8 @@ export function PricingPreview() {
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
           eyebrow="Simple pricing"
-          title="Start lean, then unlock forecasting depth when the team needs it."
-          description="Every tier includes the core workflow engine, clean design, and collaborative operating cadence. No opaque platform tax."
+          title="Start lean, then scale your ad production without rebuilding your workflow."
+          description="Every tier includes the core creative engine, polished collaboration, and a structured review flow. No opaque platform tax."
         />
         <Button
           variant="outline"

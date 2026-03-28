@@ -24,9 +24,9 @@ const headingFont = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "SignalStack",
+  title: "AdForge",
   description:
-    "SignalStack is a polished SaaS frontend for revenue teams that need clearer forecasting, better coaching, and calmer weekly execution.",
+    "AdForge is a polished SaaS frontend for teams that plan, generate, review, and launch ad content faster across every channel.",
 };
 
 export default function RootLayout({

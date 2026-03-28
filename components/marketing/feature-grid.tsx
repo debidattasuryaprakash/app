@@ -5,39 +5,39 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const features = [
   {
-    title: "Risk signals that surface themselves",
+    title: "Generate dozens of ad angles from one brief",
     description:
-      "Call activity, stage drift, MEDDPICC coverage, and stakeholder gaps roll into one score so managers know where to coach first.",
+      "Turn product details, audience notes, and campaign goals into hooks, headlines, captions, and concept directions in minutes.",
     icon: Activity,
   },
   {
-    title: "AI notes with human-level context",
+    title: "AI drafting with brand-aware structure",
     description:
-      "Summaries and follow-ups keep the nuance from calls intact without making the team babysit another assistant tab.",
+      "Create cleaner first drafts while keeping tone, prohibited phrases, and channel-specific constraints visible to the whole team.",
     icon: Bot,
   },
   {
-    title: "Quarter plans tied to reality",
+    title: "Campaign planning tied to production reality",
     description:
-      "Capacity, segment mix, and conversion assumptions stay connected to the forecast instead of living in stale planning decks.",
+      "Briefs, deadlines, and launch windows stay connected to the actual creative queue instead of living in scattered docs and chats.",
     icon: Compass,
   },
   {
-    title: "Designed for ops, managers, and reps",
+    title: "Built for marketers, designers, and clients",
     description:
-      "Each view feels native to the person using it, while the data model stays shared underneath.",
+      "Each role gets a focused workflow, while comments, approvals, and assets stay synced in one shared system.",
     icon: Layers3,
   },
   {
-    title: "Audit-friendly by default",
+    title: "Brand-safe by default",
     description:
-      "Every number has lineage, every change has ownership, and every export is ready for board prep.",
+      "Every revision has traceability, every asset has ownership, and every prompt can inherit brand rules automatically.",
     icon: ShieldCheck,
   },
   {
-    title: "Weekly rhythm, not dashboard theater",
+    title: "Creative operations, not content chaos",
     description:
-      "Templates for pipeline reviews, forecast calls, and rep 1:1s make the product useful the first week it lands.",
+      "Templates for briefs, reviews, and launch checklists make the product useful on week one instead of month three.",
     icon: TimerReset,
   },
 ];
@@ -47,8 +47,8 @@ export function FeatureGrid() {
     <section className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 py-8 md:px-10">
       <SectionHeading
         eyebrow="Why teams switch"
-        title="Everything leaders need to tighten execution without slowing sellers down."
-        description="We designed SignalStack to feel more like a sharp operating ritual than another analytics tool. The UI stays calm, the model stays rigorous."
+        title="Everything you need to create better ad content without slowing the team down."
+        description="We designed AdForge to feel like a creative command center, not another bloated content tool. The UI stays calm while the workflow stays sharp."
       />
       <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {features.map((feature) => (

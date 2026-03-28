@@ -16,12 +16,12 @@ export function HeroSection() {
           className="rounded-full border-[color:var(--brand-amber)]/30 bg-[color:var(--brand-amber)]/10 px-3 py-1 text-[color:var(--brand-navy)]"
         >
           <Sparkles className="size-3.5" />
-          Built for fast-moving revenue teams
+          Built for modern ad teams
         </Badge>
         <SectionHeading
-          eyebrow="Revenue OS"
-          title="See risk earlier, coach faster, and ship a cleaner forecast every week."
-          description="SignalStack turns pipeline reviews, rep coaching, and weekly forecast prep into one beautifully opinionated workspace. No more spreadsheet archaeology."
+          eyebrow="Ad Content OS"
+          title="Turn one brief into launch-ready ad content across every channel."
+          description="AdForge gives marketers, designers, and performance teams a single workspace to generate concepts, refine copy, review assets, and ship creative faster."
         />
 
         <div className="flex flex-col gap-3 sm:flex-row">
@@ -31,7 +31,7 @@ export function HeroSection() {
             asChild
           >
             <Link href="/dashboard-preview">
-              Explore dashboard
+              Explore workspace
               <ArrowRight className="size-4" />
             </Link>
           </Button>
@@ -73,15 +73,15 @@ export function HeroSection() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.22em] text-slate-400">
-                Live forecast board
+                Live creative board
               </p>
               <h3 className="mt-2 font-heading text-2xl font-semibold">
-                Monday pipeline review
+                Spring campaign sprint
               </h3>
             </div>
             <Badge className="rounded-full bg-emerald-500/15 px-3 py-1 text-emerald-200">
               <CheckCircle2 className="size-3.5" />
-              Healthy
+              Ready to launch
             </Badge>
           </div>
 

@@ -8,8 +8,8 @@ export default function PricingPage() {
       <section className="rounded-[2rem] border border-white/50 bg-white/80 px-6 py-10 shadow-[0_30px_80px_-48px_rgba(15,23,42,0.45)] backdrop-blur md:px-10">
         <SectionHeading
           eyebrow="Pricing"
-          title="Pick the operating system your revenue team can grow into."
-          description="Start with a focused workspace, then layer on forecasting, coaching, and cross-functional reporting as the team gets more complex."
+          title="Pick the ad creation workspace your team can grow into."
+          description="Start with faster briefs and cleaner approvals, then add richer campaign planning, collaboration, and governance as production scales."
         />
       </section>
       <PricingGrid />

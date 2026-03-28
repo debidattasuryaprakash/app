@@ -21,7 +21,7 @@ export function SiteHeader() {
           <span className="flex size-10 items-center justify-center rounded-2xl bg-slate-950 text-white shadow-lg shadow-slate-950/15">
             <BarChart3 className="size-5" />
           </span>
-          SignalStack
+          AdForge
         </Link>
 
         <nav className="hidden items-center gap-2 rounded-full border border-slate-900/10 bg-white/75 p-1.5 md:flex">

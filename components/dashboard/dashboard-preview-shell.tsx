@@ -12,19 +12,19 @@ async function getDashboardData(): Promise<DashboardData> {
     window.setTimeout(() => {
       resolve({
         summary: [
-          { label: "Commit forecast", value: "$1.28M", change: "+6.4%" },
-          { label: "At-risk pipeline", value: "$310k", change: "-12%" },
-          { label: "Manager reviews due", value: "14", change: "2 overdue" },
+          { label: "Ads in production", value: "128", change: "+18 this week" },
+          { label: "Awaiting approval", value: "23", change: "-12%" },
+          { label: "Ready to launch", value: "41", change: "6 due today" },
         ],
         priorities: [
-          "Re-open executive sponsor plan for Northstar Bank.",
-          "Coach Mid-market AE pod on discovery depth in stage 2.",
-          "Tighten legal blockers for 4 deals closing this month.",
+          "Finalize UGC hooks for the summer retargeting set.",
+          "Resolve brand review notes on the new product launch carousel.",
+          "Queue localized search copy for tomorrow's regional rollout.",
         ],
         teamHealth: [
-          { name: "Enterprise", score: "91", note: "Healthy multi-threading" },
-          { name: "Mid-market", score: "84", note: "Watch stage 3 slip" },
-          { name: "Velocity", score: "79", note: "Needs follow-up discipline" },
+          { name: "Paid social", score: "91", note: "Healthy variant coverage" },
+          { name: "Creative studio", score: "84", note: "Watch revision load" },
+          { name: "Search and display", score: "79", note: "Needs approvals cleanup" },
         ],
       });
     }, 200);
@@ -58,7 +58,7 @@ export function DashboardPreviewShell() {
         <CardHeader className="flex flex-row items-center justify-between gap-4">
           <div>
             <p className="text-sm uppercase tracking-[0.22em] text-[color:var(--brand-amber)]">
-              Weekly forecast
+              Weekly creative pulse
             </p>
             <CardTitle className="mt-2 text-2xl">
               Team summary
@@ -91,9 +91,9 @@ export function DashboardPreviewShell() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm uppercase tracking-[0.22em] text-slate-400">
-                  Leadership priorities
-                </p>
-                <h3 className="mt-2 font-heading text-2xl font-semibold">
+              Leadership priorities
+            </p>
+            <h3 className="mt-2 font-heading text-2xl font-semibold">
                   Suggested next actions
                 </h3>
               </div>
@@ -155,7 +155,7 @@ export function DashboardPreviewShell() {
             </div>
             <div className="flex items-start gap-3">
               <Clock3 className="mt-1 size-4 text-slate-500" />
-              Swap the mock function for a real API route later without changing the UI.
+              Swap the mock function for a real content or campaign API later without changing the UI.
             </div>
           </CardContent>
         </Card>
